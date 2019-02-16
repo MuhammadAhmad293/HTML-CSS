@@ -1,0 +1,620 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.home
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/business-2.jpg);
+    background-size: 100% 100%;
+    height: 900px;
+    
+}
+.nav
+{
+    overflow: auto;   
+}
+.nav ul
+{
+    list-style-type: none;
+    padding-right: 150px;
+}
+.nav li
+{
+    float: right;
+    padding: 20px 17px;
+    margin-top: 13px;
+}
+.nav .logo
+{
+    float: left;
+    margin-top: 13px;
+    padding-left: 150px;
+}
+.logo img
+{
+    width: 130px;
+}
+.nav a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+}
+.nav .btn a
+{
+    padding: 12px 22px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.clr
+{
+    clear: both;
+}
+.caption
+{
+    text-align: center;
+    color: white;
+    padding-top: 220px;
+    font-family: 'Open Sans', sans-serif;
+    overflow: auto;
+}
+.caption p
+{
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+.caption h1
+{
+    font-size: 55px;
+    font-weight: 100;
+    padding: 0px 200px;
+}
+.caption .btn
+{
+    border: none;
+    padding: 13px 35px;
+    margin-top: 40px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+.disc
+{
+   background-color: #fff;
+    height: 250px;
+    overflow: auto;
+}
+.disc1
+{
+     float: left;
+    width: 33.33333%;
+    height: 180px;
+    text-align: center;
+    padding-top: 50px; 
+   
+}
+.disc1 p
+{
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    text-align:left;
+    padding-left: 35%;
+	font-size: 16px;
+    line-height: 30px;
+	font-weight: 400;
+	color: #888888;
+}
+.disc1 h3
+{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+	font-weight: 500;
+	color: #303030;
+	
+
+}
+.disc1 span
+{
+    padding-right: 25px;
+    color: #59b781;   
+}
+.ser
+{
+    background-color: #f8f8f8;
+    width: auto;
+    margin: auto;
+    overflow: auto;
+    padding: 50px 50px;
+}
+.head
+{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 60px;
+}
+.head p
+{
+    margin-top: 15px;
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
+}
+.head h3
+{
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.pic
+{
+    background-color: white;
+    float: left;
+    text-align: left;
+    width: 30%;
+    padding: 20px 20px;
+    font-family: 'Open Sans', sans-serif;
+    overflow: auto;
+}
+.pic img
+{
+    width: 100%
+    
+}
+.pic h6
+{
+    font-size: 19px;
+    padding-left: 20px;
+    padding: 15px;
+    background-color: white;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+.pic p
+{
+    padding: 20px;
+    font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+	font-weight: 400;
+	color: #888888;
+}
+.pic button
+{
+    border: none;
+    background-color: white;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+	line-height: 28px;
+	font-weight: 400;
+}
+.ours
+{
+    background-color: white;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.bsns
+{
+    float: right;
+    width: 50%
+}
+.bsns img
+{
+    width: 75%;
+    padding-top: 100px;
+}
+.bsns-info
+{
+    width: 50%;
+    text-align: left;
+    padding-top: 250px;
+    padding-left: 90px;
+    font-family: 'Open Sans', sans-serif;
+}
+.bsns-info h3
+{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #303030;
+}
+.bsns-info p
+{
+    padding-left: 20px;
+    padding-right: 180px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #686868;
+}
+.mark
+{
+    text-align: left;
+    padding-left: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #686868;
+}
+.mark ul
+{
+    list-style-type: none;
+}
+.mark li
+{
+    padding-top: 25px;
+    padding-left: 20px;
+
+}
+.mark i
+{
+    color: #59b781; 
+    padding-right: 15px;
+}
+.mark button
+{
+    border: none;
+    padding: 15px 15px;
+    padding-left: 20px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.bkg
+{
+    background-color: #f8f8f8;
+}
+.comment
+{
+    background-color: #f8f8f8;
+    width: 80%;
+    margin: auto;
+    
+}
+.comment .par
+{
+    background-color: white;
+    float: left;
+    width: 27.5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 25px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #686868;
+}
+.parone
+{
+    padding-top: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #686868;
+}
+.partwo
+{
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #686868;
+}
+.comment img
+{
+    margin-left: 45%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    
+}
+.emo
+{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    text-align: center;
+    
+}
+.emo .like
+{
+    float: left;
+    padding:150px 130px;
+}
+.emo .like i
+{
+    margin-bottom: 25px;
+}
+.emo p
+{
+    margin-top: 25px;
+     font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.emo h1
+{
+    font-size: 52px;
+    line-height: 52px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.75);
+}
+.add
+{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/download.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+}
+.add h2
+{
+    padding-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 300;
+}
+.add p
+{
+    padding: 30px 380px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 37px;
+    font-weight: 400;
+}
+.add button
+{
+    border: none;
+    padding: 15px 25px;
+    padding-left: 20px;
+    margin-bottom: 140px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+}
+.other
+{
+    width: auto;
+    text-align: center;
+}
+.other h1
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    color: #303030;   
+    margin-top: 70px;
+}
+.other h3
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 39px;
+    color: #888888; 
+    margin-top: 20px;
+}
+.contain
+{
+    width: auto;
+    margin: auto;
+    text-align: left;
+    overflow: auto;
+}
+.contain .item
+{
+    float: left;
+    width: 29%;
+    padding-left: 60px;
+    margin-bottom: 100px;
+}
+.item h4
+{
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+}
+.item p
+{
+    padding-right: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #686868;
+}
+.father
+{
+    background-color: #f8f8f8;
+    overflow: auto;
+}
+.iron
+{
+    float: left;
+    padding-left: 75px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.green
+{
+    background-color: #4caf50;
+    overflow: auto;
+}
+.green h1
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+    padding-top: 60px;
+    padding-left: 100px;
+
+}
+.green p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; 
+    color:  rgba(255, 255, 255, 0.82);
+    margin-bottom: 40px;
+    padding-left: 100px;
+}
+.green button
+{
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 20px 32px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.blk
+{
+    background-color: #1f2021;
+    overflow: auto;
+    margin: auto;
+    width: auto;
+    margin: auto;
+}
+.about
+{
+    float: left;
+     width: 20%;
+    padding-left: 60px;
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+.about ul 
+{
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #58606b;
+}
+.about h4
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #ffffff;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.about p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #58606b;
+}
+.about a
+{
+	text-decoration: none;
+	color: #58606b;
+}
+.last
+{
+	background-color: #191919;
+	overflow: auto;
+}
+.last p
+{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #58606b;
+	padding-left: 50px;
+	padding: 20px;
+}
+.last .icons
+{
+	float: right;
+	padding-right: 20px;
+	padding: 10px;
+	color: gainsboro;
+}
+.overlay i
+{
+	position: absolute;
+	top: 240px;
+	left: 340px;
+}
+
+{
+	opacity: 1;
+}
+.pic2 i
+{
+	position: absolute;
+	top: 240px;
+	left: 720px;
+}
+.pic3 i
+{
+	position: absolute;
+	top: 240px;
+	left: 1120px;
+}
+.pic4 i
+{
+	position: absolute;
+	top: 540px;
+	left: 330px;
+}
+.pic5 i
+{
+	position: absolute;
+	top: 540px;
+	left: 720px;
+}
+.pic6 i
+{
+	position: absolute;
+	top: 540px;
+	left: 1120px;
+}
